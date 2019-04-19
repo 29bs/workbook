@@ -6,16 +6,33 @@ body {
 
 header {
   background-color: pink;
+  text-align: right;
+  background-image:
+  url(../img/header.png);
+  height: 240px;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 60px;
 }
 
-ul {
+header ul {
   margin: 0;
   list-style-type: none;
   padding-left: 0;
+  padding: 10px;
 }
 
-li {
+header li {
   display: inline-block;
   padding: 4px 8px;
   font-size: 12px;
+}
+
+header li> a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header li> a:hover {
+  color: royalblue;
 }
